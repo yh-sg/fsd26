@@ -1,0 +1,5 @@
+<h1>Countries List - Wine</h1>
+
+<ul class="list-group" *ngFor="let item of countries">
+    <li class="list-group-item" (click)="getCountry(item)">{{item}}</li>
+</ul>
